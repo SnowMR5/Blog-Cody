@@ -1,0 +1,156 @@
+:root {
+  --backolor-header: #ececec;
+  --back-head-sec: #cecece;
+  --back-button: crimson;
+
+  --grid-line: #696969;
+  --grid-line-2: #e7e7e7;
+  --svg-ola-bcolor: #08f;
+  --background-primary: #525252;
+  --background-sec: #04394e;
+  --back-menu-res: #012b3f;
+  --button-head-primary: #2197e6;
+  --button-head-secundary: blueviolet;
+
+  --font-headers: "Ubuntu", sans-serif;
+  --font-paragraph: "Lexend", sans-serif;
+
+  --color-first: #fff;
+  --color-second: #000;
+  --cont-art: #0587bb91;
+  --color-sol: #e0d420;
+
+  --color-shadow-sol: #fafd1e;
+  --img-art: url("../images/banner.png");
+  --img-colab: url("../images/after.jpg");
+  --img-mental: url("../img-vac/mental.png");
+  --img-motivacion: url("../img-vac/motiva.png");
+  --img-vacacion: url("../img-vac/burn.png");
+  --img-increm: url("../img-vac/incremento.png");
+
+  --grade-card-1: -20deg;
+  --grade-card-2: -180deg;
+  --back-card-trans: transparent;
+
+  --back-color-gradient-1: #139b3c;
+  --back-color-gradient-2: #147fbd;
+  --back-color-gradient-3: #a19f13;
+  --back-color-gradient-4: #c96a12;
+  --back-color-gradient-5: #cc47ba;
+
+  --back-card-1: linear-gradient(
+      var(--grade-card-1),
+      var(--color-second) 55%,
+      var(--color-first) -7%,
+      var(--back-card-trans) 0px,
+      var(--back-card-trans) 100px
+    ),
+    linear-gradient(
+      var(--grade-card-1),
+      var(--back-color-gradient-1) 100%,
+      var(--color-first) -7%,
+      var(--back-card-trans) 0px,
+      var(--back-card-trans) 100px
+    );
+
+  --back-card-2: linear-gradient(
+      var(--grade-card-1),
+      var(--color-second) 55%,
+      var(--color-first) -7%,
+      var(--back-card-trans) 0px,
+      var(--back-card-trans) 100px
+    ),
+    linear-gradient(
+      var(--grade-card-1),
+      var(--back-color-gradient-2) 100%,
+      var(--color-first) -7%,
+      var(--back-card-trans) 0px,
+      var(--back-card-trans) 100px
+    );
+
+  --back-card-3: linear-gradient(
+      var(--grade-card-1),
+      var(--color-second) 55%,
+      var(--color-first) -7%,
+      var(--back-card-trans) 0px,
+      var(--back-card-trans) 100px
+    ),
+    linear-gradient(
+      var(--grade-card-1),
+      var(--back-color-gradient-3) 100%,
+      var(--color-first) -7%,
+      var(--back-card-trans) 0px,
+      var(--back-card-trans) 100px
+    );
+
+  --back-card-4: linear-gradient(
+      var(--grade-card-1),
+      var(--color-second) 55%,
+      var(--color-first) -7%,
+      var(--back-card-trans) 0px,
+      var(--back-card-trans) 100px
+    ),
+    linear-gradient(
+      var(--grade-card-1),
+      var(--back-color-gradient-4) 100%,
+      var(--color-first) -7%,
+      var(--back-card-trans) 0px,
+      var(--back-card-trans) 100px
+    );
+
+  --back-card-5: linear-gradient(
+      var(--grade-card-1),
+      var(--color-second) 55%,
+      var(--color-first) -7%,
+      var(--back-card-trans) 0px,
+      var(--back-card-trans) 100px
+    ),
+    linear-gradient(
+      var(--grade-card-1),
+      var(--back-color-gradient-5) 100%,
+      var(--color-first) -7%,
+      var(--back-card-trans) 0px,
+      var(--back-card-trans) 100px
+    );
+
+  --padding-zero: 0;
+  --padding-five: 5px;
+  --padding-first: 10px;
+  --padding-second: 20px;
+  --padding-config: 0px 20px;
+  --padding-container: 20px 0px;
+  --padding-container-upDown: 10px 0px;
+  --padding-container-leftRight: 0px 10px;
+
+  --size-15: 15px;
+  --size-16: 16px;
+  --size-17: 17px;
+  --size-18: 18px;
+  --size-20: 20px;
+  --size-25: 25px;
+  --size-30: 30px;
+  --size-35: 35px;
+  --size-40: 40px;
+  --size-50: 50px;
+  --size-60: 60px;
+  --size-70: 70px;
+
+  --width-5: 5%;
+  --width-10: 10%;
+  --width-15: 15%;
+  --width-20: 20%;
+  --width-30: 30%;
+  --width-40: 40%;
+  --width-45: 45%;
+  --width-50: 50%;
+  --width-60: 60%;
+  --width-70: 70%;
+  --width-80: 80%;
+  --width-90: 90%;
+  --width-100: 100%;
+
+  --height-vh: 100vh;
+  --height: 100%;
+  --height-100: 100px;
+  --height-px: 150px;
+}
